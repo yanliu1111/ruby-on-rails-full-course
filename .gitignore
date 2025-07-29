@@ -1,0 +1,71 @@
+# See https://github.com/github/gitignore/blob/main/Rails.gitignore
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and temp files.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore uploaded files in development.
+/storage/*
+!/storage/.keep
+
+/public/assets
+.byebug_history
+
+# Ignore node_modules and Yarn files if using webpacker or jsbundling-rails
+/node_modules
+/yarn-error.log
+
+# Ignore compiled files
+/public/packs
+/public/packs-test
+/public/assets
+/public/js
+/public/css
+/public/fonts
+/public/images
+
+# Ignore dotenv files
+.env
+.env.*
+
+# Ignore editor config and OS files
+*.swp
+*~
+.project
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore coverage reports
+/coverage/
+/coverage/*
+
+# Ignore test artifacts
+/spec/tmp
+/test/tmp
+/spec/examples.txt
+
+# Ignore Ruby version managers
+.rbenv-vars
+.ruby-version
+.ruby-gemset
+
+# Ignore Mise if used
+.mise.toml
+.mise.lock
+
+# Ignore Capybara screenshots
+/tmp/capybara
+
+Dockerfile
+docker-compose.yml
+/.kamal

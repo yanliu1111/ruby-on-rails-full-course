@@ -1,24 +1,24 @@
-# README
+# Learn Ruby on Rails - Full Course 2025
+## install Ruby on Rails on Mac
+I normally use Windows, but I heard installation can be more difficult there, so I decided to follow this tutorial on my Mac instead. I installed Ruby and Rails using the official guide:<br>
+https://guides.rubyonrails.org/install_ruby_on_rails.html#install-ruby-on-macos
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Since I already had Xcode, Homebrew, and Node.js set up on my Mac, I was able to skip some of the installation steps in the guide.
 
-Things you may want to cover:
+After completing the steps, I found that I didn't need to install SQLite or Yarn separately — they were already taken care of. That was great!
 
-* Ruby version
+## CRUD Project
+1. There is different Renders each friend via a partial in `_friend.html.erb` file
+<details> 
+<summary>
 
-* System dependencies
+| Feature                   | New Version                 | Old Version                     |
+|---------------------------|-----------------------------|---------------------------------|
+| Render partials           | ✅ `<%= render friend %>`   | ❌ Manual table row output      |
+| Link to show/edit         | ✅ Included via partial     | ✅ Manual links in table        |
 
-* Configuration
+</summary>
+</details>
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2. Set login and signup pages
+Reference devise in `rubygems.org`

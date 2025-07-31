@@ -1,5 +1,5 @@
 # Learn Ruby on Rails - Full Course 2025
-## install Ruby on Rails on Mac
+## Install Ruby on Rails on Mac
 I normally use Windows, but I heard installation can be more difficult there, so I decided to follow this tutorial on my Mac instead. I installed Ruby and Rails using the official guide:<br>
 https://guides.rubyonrails.org/install_ruby_on_rails.html#install-ruby-on-macos
 
@@ -22,3 +22,7 @@ After completing the steps, I found that I didn't need to install SQLite or Yarn
 
 2. Set login and signup pages
 Reference devise in `rubygems.org`
+
+3. Tables association
+Build user table and friends table one to many relation
+In terminal, `rails g migration add_user_id_to_friends user_id:integer:index`

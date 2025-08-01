@@ -12,7 +12,15 @@ After completing the steps, I found that I didn't need to install SQLite or Yarn
 
 ## CRUD Project
 Developed a Friends List application with full CRUD functionality, allowing users to create, read, update, and delete friends. Implemented user authentication using Devise, with separate User and Friend tables and proper associations. Each authenticated user can manage their own list of friends, with individual friend records displayed in a table, including links to view and edit details.
-
+<br/>
+<br/>
+<img
+style="display: block;
+margin-left: auto;
+margin-right: auto;"
+src="demo1.png"
+alt="demo">
+</img> <br>
 1. There is different Renders each friend via a partial in `_friend.html.erb` file
 <details> 
 <summary>
